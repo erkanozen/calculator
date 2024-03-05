@@ -1,0 +1,145 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.title {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 4px;
+}
+
+.calculator-form {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #2bfdfe;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #2bfdfe;
+  padding: 50px 80px 80px 80px;
+  width: 450px;
+  background-image: url("../../public/pngtree-calculator-on-a-background-of-graphs-and-charts-image_2649591.jpg");
+  background-size: 100vh;
+  background-size: cover;
+}
+
+.calculator-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  
+}
+
+.calculator-label {
+  font-size: 24px;
+  font-weight: 900;
+  margin-top: 5px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.input {
+  text-align: center;
+  padding: 8px;
+  width: 80%;
+  color: black;
+  font-size: 18px;
+  outline: none;
+  border-radius: 12px;
+  border: none;
+  width: 100%;
+  background-color: #2bfdfe;
+  opacity: 0.6;
+}
+input::placeholder {
+  color: black;
+  font-size: 12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.calculator-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  margin: 10px;
+}
+.increment {
+  width: 70px;
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  background-color: #9e4681;
+  font-size: 24px;
+  color: white;
+}
+
+.decrease {
+  width: 70px;
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  background-color: #9e4681;
+  font-size: 24px;
+  color: white;
+}
+
+.divide {
+  width: 70px;
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  background-color: #9e4681;
+  font-size: 24px;
+  color: white;
+}
+
+.multiply {
+  width: 70px;
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  background-color: #9e4681;
+  font-size: 24px;
+  color: white;
+}
+
+.Clear-button {
+  margin-top: 10px;
+  padding: 6px;
+  border-radius: 8px;
+  border: 0;
+  width: 100%;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: #9e4681;
+  color: white;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 940px) {
+  .calculator-form {
+    width: 370px;
+  }
+}
+
+@media (max-width: 768px) {
+  .calculator-form {
+    width: 70%;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .calculator-form {
+    width: 90%;
+    margin-bottom: 50px;
+  }
+}
